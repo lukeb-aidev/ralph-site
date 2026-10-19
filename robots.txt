@@ -1,0 +1,6 @@
+# Author: Lukas Bower
+# Purpose: Permit indexing of Ralph public information pages.
+# Copyright 2026 Lukas Bower
+User-agent: *
+Allow: /
+Sitemap: https://lukeb-aidev.github.io/ralph-site/sitemap.xml

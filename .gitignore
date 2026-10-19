@@ -1,0 +1,4 @@
+# Author: Lukas Bower
+# Purpose: Exclude local desktop metadata from Ralph’s public website.
+# Copyright 2026 Lukas Bower
+.DS_Store
