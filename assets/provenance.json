@@ -1,7 +1,5 @@
 {
-  "Author": "Lukas Bower",
   "Purpose": "Record the provenance, native resolution and lossless delivery sizes of the public Ralph website mascot assets.",
-  "Copyright": "Copyright 2026 Lukas Bower",
   "date": "2026-10-19",
   "source": "Generated with OpenAI image generation from the existing Ralph robot-puppy reference at the owner’s request.",
   "source_prompt_summary": "Regenerate the existing friendly teal robot puppy as clean high-resolution transparent artwork, preserving its identity, pose, proportions and colours. Do not add text or a background.",
@@ -10,56 +8,56 @@
     "width": 1254,
     "height": 1254
   },
-  "processing": "No enlargement or artwork retouching. Native pixels retained in the master. Delivery variants use Lanczos reduction and lossless PNG encoding. Website icons are composited on opaque #F7F8FA.",
+  "processing": "Native image content is unchanged. Delivery variants use Lanczos reduction and lossless PNG encoding. Website icons are composited on opaque #F7F8FA. Optional personal attribution metadata has been removed without changing encoded image pixels.",
   "delivery_files": [
     {
       "file": "ralph-mascot-master.png",
       "width": 1254,
       "height": 1254,
       "mode": "RGBA",
-      "sha256": "ff1cf2d6aaacb39af0ae448667df55d4218e4fa97965ca0b3f17309cd754799d"
+      "sha256": "854c5dc3bb1df2ba3671f0995578a9eff42a002e56be48098f7ced6f6bca28a1"
     },
     {
       "file": "ralph-mascot-512.png",
       "width": 512,
       "height": 512,
       "mode": "RGBA",
-      "sha256": "3129756408b99a5018ffa0ab728afc83eec08cd2a3e36cff59a48384de01551e"
+      "sha256": "e6c0306edf2d6b333bc38363d26a8a77cf61ae99f21de70066f470cfcb688cc3"
     },
     {
       "file": "ralph-mascot-1024.png",
       "width": 1024,
       "height": 1024,
       "mode": "RGBA",
-      "sha256": "b62189afa23c524be5567a096438d37bd247d7a8c1293eb1296406df4d144dfb"
+      "sha256": "492f776d37cce93176afa96b65f59d20ba7211234b6a780f12a9e69dc61c93ff"
     },
     {
       "file": "ralph-mascot.png",
       "width": 1024,
       "height": 1024,
       "mode": "RGBA",
-      "sha256": "c2c53f9df16e2e44d0e0b6349468141effd61e10d0c1c1aa4c298fd777818000"
+      "sha256": "492f776d37cce93176afa96b65f59d20ba7211234b6a780f12a9e69dc61c93ff"
     },
     {
       "file": "ralph-icon.png",
       "width": 1024,
       "height": 1024,
       "mode": "RGB",
-      "sha256": "24d05fc825341589d07256947092acb2a86a735c0d4342d3d80d01885a28d108"
+      "sha256": "495bd03936b1fb96dcff9a98b1d6f8fec00680db4d3e7d85234ce1c88b9c452b"
     },
     {
       "file": "ralph-icon-64.png",
       "width": 64,
       "height": 64,
       "mode": "RGB",
-      "sha256": "14a8cd0d86b2bdbffffabf3236b90442c05bf5e22b7440dfacb464b6adeac226"
+      "sha256": "39eb4bddc92719449b640bbf42eb11aef102d42174e5419d3e47e54f06332d7a"
     },
     {
       "file": "ralph-icon-128.png",
       "width": 128,
       "height": 128,
       "mode": "RGB",
-      "sha256": "839f529865d9175b183d6cb2b9784dcb5fae74e52cdd2ce2197199a06bd2ee5f"
+      "sha256": "dd39313fe55c15ce5eecf6a418fb75667156d1e4cef61bf6f9ad9c41b265ac64"
     }
   ]
 }
