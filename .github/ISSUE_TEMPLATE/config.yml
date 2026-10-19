@@ -1,0 +1,9 @@
+# Purpose: Route public Ralph requests through the guided support form.
+blank_issues_enabled: false
+contact_links:
+  - name: Ralph support guide
+    url: https://lukeb-aidev.github.io/ralph-site/support/
+    about: Find help with suggestions, opening other apps and Ralph's requirements.
+  - name: Ralph privacy and data controls
+    url: https://lukeb-aidev.github.io/ralph-site/privacy/
+    about: Learn what Ralph keeps and how to review, export or delete your data.

@@ -1,0 +1,53 @@
+# Purpose: Make public Ralph support requests clear, useful and easy to send.
+name: Contact Ralph
+description: Ask a question, report a problem or share an idea for Ralph.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## How can Ralph help?
+        A short message is enough to get started. Replies will appear here on GitHub.
+
+        **This request will be public.** Leave out private requests, Health information, contact details, passwords and exported files. Crop or blur personal details in screenshots before attaching them.
+
+        For quick answers, visit [Ralph support](https://lukeb-aidev.github.io/ralph-site/support/).
+  - type: dropdown
+    id: topic
+    attributes:
+      label: What is this about?
+      options:
+        - A question about Ralph
+        - Something is not working
+        - A discovery missed the mark
+        - Accessibility or ease of use
+        - An idea or suggestion
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: Your message
+      description: Tell us what you need help with. If something went wrong, what did you expect and what happened?
+      placeholder: A few sentences in your own words are fine.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to try (optional)
+      description: If you are reporting a problem, a few steps can help us see it too. Skip this for a question or idea.
+      placeholder: |
+        1. Open Ralph and...
+        2. Tap...
+        3. See...
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: iPhone, iOS and Ralph version (optional)
+      description: Include any details you know. It is fine to leave this blank.
+      placeholder: iPhone model; iOS version; Ralph version or build, if known
+    validations:
+      required: false

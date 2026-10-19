@@ -13,4 +13,6 @@ Preview locally with `python3 -m http.server 8766` and open the printed local UR
 
 The logo and mascot are Ralph artwork. App images are development captures, not release-qualification evidence. This repository does not grant a licence to reuse Ralph’s identity.
 
-The contact option currently uses this repository’s public GitHub issues. A dedicated support email can be added after its ownership and operation have been confirmed. Do not publish an unverified mailbox.
+The contact option opens the “Contact Ralph” GitHub Issue Form in `.github/ISSUE_TEMPLATE/ralph-support.yml`. Keep questions, problems, discovery feedback, accessibility and ideas in this single form. Topic and message are required; steps and device/version details are optional. GitHub also asks for an issue title. The form and website explain that requests and replies are public; do not ask for private data or a contact email. `.github/ISSUE_TEMPLATE/config.yml` provides support/privacy guide links and disables blank issues.
+
+After editing the form, check that the website button opens it directly, GitHub renders the fields and optional fields can remain empty. Verify without submitting a test issue. A dedicated support email can be added after its ownership and operation have been confirmed. Do not publish an unverified mailbox.
